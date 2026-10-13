@@ -263,15 +263,19 @@
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
-
+0.1 + 0.2 ne donne pas exactement 0.3 parce que JavaScript ne représente pas certains nombres décimaux avec précision en binaire.
+Cela provoque de petites erreurs, comme 0.30000000000000004.
+toFixed() arrondit un nombre, mais renvoie du texte (string) au lieu d’un nombre.
 **Mon test dans la console :**
 
 ```js
-// colle ici le test que tu as exécuté et le résultat obtenu
+0.1 + 0.2
+0.30000000000000004
+(0.1 + 0.2).toFixed(2)
+'0.30'
 ```
 
-**Source :** 
+**Source :https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Numbers_and_dates 
 
 **IA utilisée ? (prompt + vérification sur MDN) :** non
 
