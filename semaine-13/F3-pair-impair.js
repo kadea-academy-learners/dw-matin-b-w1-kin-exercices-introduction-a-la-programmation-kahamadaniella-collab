@@ -20,4 +20,23 @@ Que renvoie -7 % 2 ? Déduis-en pourquoi il vaut mieux tester % 2 !== 0 plutôt 
 
 // ✍️ Ton code ici 👇 (règles : const/let, ===, gabarits littéraux, fonctions fléchées, camelCase)
 
+// 1. Déclare et teste avec 17
+const numeroTicket = 17;
 
+if (numeroTicket % 2 === 0) {
+    console.log(`Ticket ${numeroTicket} : pair, tu gagnes un tote bag.`);
+} else {
+    console.log(`Ticket ${numeroTicket} : impair, tu gagnes un stylo.`);
+}
+
+// Pour tester les autres valeurs proprement :
+const verifierTicket = (ticket) => {
+    if (ticket % 2 === 0) {
+        console.log(`Ticket ${ticket} : pair, tu gagnes un tote bag.`);
+    } else {
+        console.log(`Ticket ${ticket} : impair, tu gagnes un stylo.`);
+    }
+};
+
+verifierTicket(24);
+verifierTicket(0);
