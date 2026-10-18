@@ -43,21 +43,4 @@ for (let i = 10; i >= 1; i--) {
     console.log(i);
 }
 
-console.log("Décollage !");// M1 — FizzBuzz kinois
-
-for (let i = 1; i <= 30; i++) {
-
-    // On vérifie d'abord si le nombre est divisible par 3 ET par 5.
-    if (i % 3 === 0 && i % 5 === 0) {
-        console.log("MalewaWewa");
-
-    } else if (i % 3 === 0) {
-        console.log("Malewa");
-
-    } else if (i % 5 === 0) {
-        console.log("Wewa");
-
-    } else {
-        console.log(i);
-    }
-}
+console.log("Décollage !");
