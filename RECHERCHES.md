@@ -11,7 +11,7 @@
 
 **Ma réponse (avec mes mots, 3 à 5 lignes) :**
 
-...
+null représente une absence de valeur intentionnelle. Pourtant, en JavaScript, typeof null renvoie "object" à cause d'une particularité historique du langage. Ce comportement existe depuis les premières versions de JavaScript et a été conservé pour ne pas casser les anciens programmes. Cela ne signifie donc pas que null est réellement un objet.
 
 **Mon test dans la console :**
 
